@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/EncButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+
+    <TextView android:id="@+id/Name"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:textColor="#FFFFFF"
+		android:layout_width="wrap_content"
+		android:layout_height="32dp"
+		android:layout_toRightOf="@id/EncButton" />
+
+    <TextView android:id="@+id/Date"
+		android:textSize="12sp"
+		android:textColor="#FFFFFF"
+		android:layout_width="wrap_content"
+		android:layout_height="32dp"
+		android:layout_alignParentRight="true" />
+
+    <TextView android:id="@+id/Text"
+		android:textSize="12sp"
+		android:textColor="#FFFFFF"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_below="@id/EncButton" />
+
+    <Button
+        android:id="@+id/Reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reply"
+        android:background="#FFFFFF"
+        android:layout_below="@id/Text" />
+    
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:background="#FFFFFF"
+        android:layout_below="@id/Text"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

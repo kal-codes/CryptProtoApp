@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">CryptPrototype</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_crypt_prototype">CryptPrototype</string>
+    <string name="home">Home</string>
+    <string name="messages">Messages</string>
+    <string name="compose">Compose</string>
+    <string name="settings">Settings</string>
+    <string name="to">To</string>
+    <string name="message">Message</string>
+    <string name="inbox">Inbox</string>
+    <string name="sent">Sent</string>
+    <string name="reply">Reply</string>
+    <string name="delete">Delete</string>
+    <string name="enc_type">Encryption Type:</string>
+    <string-array name="enctype_array">
+        <item>None</item>
+        <item>Type 1</item>
+        <item>Rijndael</item>
+    </string-array>
+
+</resources>
